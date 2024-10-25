@@ -2,6 +2,12 @@
 
 Hello world! My name is Pierre-Alexandre, and I'm excited to share my still developping data engineer portfolio. Within this repository, you'll find a comprehensive catalog of projects in various data engineering / analytics courses or group projects, each of which covers essential learning techniques and skills.
 
+### [Apache Spark and Azure- Flight Data streaming and analytics](https://github.com/pierrealexandre78/flight_radar/)
+
+- Brief overview:  The goal of the project was to get to know how Apache Kafka streams works. For training purposes, I used an Azure free B1s machine and simulated the stream of the data to avoid memory problems on the Azure instance. Each event in the simulated streaming was created as a sample JSON file from an existing dataset. The streamed data was uploaded to an Azure Blob Storage and analyzed by a Data Factory,
+- Technology used: *Azure (VM, Blob Storage, Azure Functions, Azure Devops, Azure Data Lake Analytics, Azure Synapse), Kafka, Docker, python*
+- Outcome: Stream-processing live flight data with spark and uploading into azure blob storage for analytics using azure synapse
+
 ### [Artefact final project - ETL Pipeline](https://github.com/pierrealexandre78/parisian_mobility/)
 
 - Brief overview:  Apache Airflow was used to schedule and orchestrate ETL pipeline from 3 public API to BigQuery, transform using DBT, and display it on a streamlit webapp. Infra as Code using Pulumi was developped to deploy GCP instances automatically.
